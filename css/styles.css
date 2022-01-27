@@ -1,26 +1,35 @@
 body {
     font-size: 24px;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+}
+
+p {
+    width: 30%;
+    display: inline;
 }
 
 .value {
     margin: 30px;
-    padding: 10px;
+    padding: 5px;
     background: darkgreen;
     color: white;
     border: 3px solid black;
+    display: inline-block;
 }
 
 #btn {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     background-color: orange;
     border-radius: 12px;
     cursor: pointer;
+    
 }
 
-h3 {
-    text-align: center;
-}
 
 #result {
     color:crimson;

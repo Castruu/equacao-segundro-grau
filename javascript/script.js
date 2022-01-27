@@ -9,8 +9,8 @@ function bhaskara(a, b, c) {
         alert("Delta deve ser maior do que 0");
         return null;
     }
-    let x1 = (-b + Math.sqrt(delt))/(2 * a);
-    let x2 = (-b - Math.sqrt(delt))/(2 * a);
+    let x1 = ((-b + Math.sqrt(delt))/(2 * a)).toFixed(2);
+    let x2 = ((-b - Math.sqrt(delt))/(2 * a)).toFixed(2);
     return [x1, x2]
 }
 
